@@ -3,7 +3,15 @@ dark #265C4B
 less dark #146551
 medium #007566
 light #589A8D
-lightest #84C1BS */
+lightest #84C1BS
+white ##DDEAF3
+#6FBEEE*/
+
+.bg-white{
+  background-color:#DDEAF3
+  padding:50px;
+  padding-bottom: 50px;
+}
 
 .bg-dark{
   background-color:#265C4B ;
@@ -30,8 +38,8 @@ lightest #84C1BS */
 }
 
 nav{
-  background-color:#589A8D;
-  border:1px solid:#589A8D;
+  background-color:#265C4B;
+  border:1px solid:#265C4B;
   color:black;
   display:block;
   overflow:hidden;
@@ -43,15 +51,15 @@ nav{
   }
   
   nav ul li a{
-    color:#265C4B;
+    color:#589A8D;
     display:block ;
-    line-height:56px;
+    line-height:10px;
     text-decoration:none;
     padding:10px;
   }
   
   nav ul li:hover{
-    background-color: #6FBEEE;
+    background-color: #265C4B;
   }
   nav ul li:hover a{
     color:black;
@@ -65,4 +73,8 @@ nav{
 
 ul{
   font-family: 'Playfair Display', serif;
+}
+
+p{
+  font-family: 'Onest', sans-serif;
 }
