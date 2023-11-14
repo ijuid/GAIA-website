@@ -3,14 +3,14 @@ dark #265C4B
 less dark #146551
 medium #007566
 light #589A8D
-lightest #84C1BS
-white ##DDEAF3
+lightest #9FF5B9
+white ##DDEAF
 #6FBEEE*/
 
 .bg-white{
   background-color:#DDEAF3
   padding:50px;
-  padding-bottom: 50px;
+  padding-bottom:50px;
 }
 
 .bg-dark{
@@ -33,17 +33,19 @@ white ##DDEAF3
   padding:50px;
 }
 .bg-lightest{
-  background-color:#8FC1Bs ;
+  background-color:#9FF5B9 ;
   padding:50px;
 }
 
 nav{
-  background-color:#265C4B;
-  border:1px solid:#265C4B;
+  background-color:white;
+  border:1px solid:white;
   color:black;
   display:block;
   overflow:hidden;
-  width:100%;
+  width:75%;
+  height:50px;
+  padding-right:250px;
 }
   nav ul li{
     display:inline-block;
@@ -51,26 +53,53 @@ nav{
   }
   
   nav ul li a{
-    color:#589A8D;
-    display:block ;
+    color:#9FF5B9;
+    display:block;
     line-height:10px;
     text-decoration:none;
     padding:10px;
+    background-color: #265C4B;
   }
   
   nav ul li:hover{
     background-color: #265C4B;
   }
   nav ul li:hover a{
-    color:black;
+    color:#589A8D;
   }
 
+nav ul{
+padding-left:20px;
+}
 
+nav.nav-dark{
+  background-color:#265C4B;
+  border:1px solid:#265C4B;
+  color:black;
+  display:block;
+  overflow:hidden;
+  width:75%;
+  height:100%;
+  
+}
 
+nav.nav-dark ul li{
+  display:inline-block;
+  list-style-type:none;
+}
 
+nav.nav-dark ul li a{
+  color:#9FF5B9;
+  display:block;
+  line-height:10px;
+  text-decoration:none;
+  padding:10px;
+  background-color: #265C4B;
+}
 
-
-
+nav.nav-dark ul{
+padding-left:20px;
+}
 ul{
   font-family: 'Playfair Display', serif;
 }
