@@ -5,6 +5,7 @@ medium #007566
 light #589A8D
 lightest #9FF5B9
 white ##DDEAF
+black #030203
 #6FBEEE*/
 
 .bg-white{
@@ -35,6 +36,10 @@ white ##DDEAF
 .bg-lightest{
   background-color:#9FF5B9 ;
   padding:50px;
+}
+.bg-black{
+  background-color:#030203;
+  padding:0px;
 }
 
 nav{
@@ -73,8 +78,8 @@ padding-left:20px;
 }
 
 nav.nav-dark{
-  background-color:#265C4B;
-  border:1px solid:#265C4B;
+  background-color:#589A8D;
+  border:1px solid:#589A8D;
   color:black;
   display:block;
   overflow:hidden;
@@ -89,12 +94,12 @@ nav.nav-dark ul li{
 }
 
 nav.nav-dark ul li a{
-  color:#9FF5B9;
+  color:black;
   display:block;
   line-height:10px;
   text-decoration:none;
   padding:10px;
-  background-color: #265C4B;
+  background-color: #589A8D;
 }
 
 nav.nav-dark ul{
