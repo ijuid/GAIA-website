@@ -87,14 +87,16 @@ nav.nav-dark{
   height:100%;
   
 }
-
+nav.nav-dark ul{
+padding-left:400px;
+}
 nav.nav-dark ul li{
   display:inline-block;
   list-style-type:none;
 }
 
 nav.nav-dark ul li a{
-  color:#9FF5B9;
+  color:black;
   display:block;
   line-height:10px;
   text-decoration:none;
@@ -102,9 +104,7 @@ nav.nav-dark ul li a{
   background-color: #265C4B;
 }
 
-nav.nav-dark ul{
-padding-left:350px;
-}
+
 
 nav.nav-dark ul li:hover{
   background-color:#265C4B;
@@ -118,4 +118,8 @@ ul{
 
 p{
   font-family: 'Onest', sans-serif;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  padding-left:44.5%;
 }
